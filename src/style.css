@@ -106,3 +106,22 @@ footer a {
   line-height: 24px;
   color: var(--color-text1);
 }
+@media (max-width: 576px) {
+  footer {
+    grid-template-columns: 1fr;
+    padding: 30px;
+    grid-gap: 30px;
+  }
+  footer h3 {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  footer p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  footer a {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
