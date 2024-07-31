@@ -15,8 +15,6 @@ p {
   font-style: normal;
 }
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url(/images/hero\ pic.jpg);
   margin: 0 auto;
   max-width: 100%;
   background-size: cover;
@@ -24,6 +22,8 @@ p {
   background-repeat: no-repeat;
 }
 header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(/images/hero\ pic.jpg);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -78,4 +78,31 @@ header a:hover {
   header h2 {
     font-size: 20px;
   }
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  padding: 100px;
+  grid-gap: 64px;
+  color: var(--color-text1);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/images/footer\ pic.jpg);
+}
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  line-height: 24px;
+}
+footer a {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  line-height: 24px;
+  color: var(--color-text1);
 }
