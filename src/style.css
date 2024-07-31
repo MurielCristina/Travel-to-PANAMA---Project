@@ -21,6 +21,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
 }
+/*  HEADER  */
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
     url(/images/hero\ pic.jpg);
@@ -79,6 +80,11 @@ header a:hover {
     font-size: 20px;
   }
 }
+/*  MAIN  */
+main {
+  background-color: var(--color-text1);
+}
+/*  FOOTER  */
 footer {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
