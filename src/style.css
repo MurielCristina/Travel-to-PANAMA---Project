@@ -177,6 +177,7 @@ main .brunch {
   font-size: 24px;
   line-height: 1;
   text-align: center;
+  padding-top: 48px;
 }
 .columns3-grids p {
   font-style: normal;
@@ -207,9 +208,30 @@ main .brunch {
   color: var(--color-text1);
   transition: all 200ms ease-in-out;
 }
-.columns2-grids {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+@media (max-width: 576px) {
+  main .brunch {
+    padding: 30px;
+  }
+  .columns3-grids {
+    grid-template-columns: 1fr;
+  }
+  .brunch h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .brunch h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .columns3-grids h4 {
+    padding-top: 20px;
+  }
+  .columns3-grids p {
+    font-size: 11px;
+  }
+  .columns3-grids h5 {
+    font-size: 12px;
+  }
 }
 
 /*  FOOTER  */
