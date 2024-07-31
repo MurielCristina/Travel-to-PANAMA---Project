@@ -1,10 +1,66 @@
+:root {
+  --color-text1: white;
+  --color-bg: #4a382a;
+  --color-hightlight: rgb(200, 170, 1);
+}
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
+  background-color: var(--color-bg);
 }
 p {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(/images/hero\ pic.jpg);
+  margin: 0 auto;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: var(--color-text1);
+}
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  margin: 30px 0;
+}
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+header a {
+  background-color: var(--color-text1);
+  color: var(--color-bg);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+  letter-spacing: 3px;
+}
+header a:hover {
+  color: var(--color-hightlight);
+  transition: all 200ms ease-in-out;
 }
