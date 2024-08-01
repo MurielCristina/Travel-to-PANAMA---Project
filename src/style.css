@@ -207,6 +207,14 @@ main .brunch {
   color: var(--color-text1);
   transition: all 200ms ease-in-out;
 }
+.columns2-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 @media (max-width: 576px) {
   main .brunch {
     padding: 30px;
@@ -230,6 +238,15 @@ main .brunch {
   }
   .columns3-grids h5 {
     font-size: 12px;
+  }
+  .columns2-grid {
+    grid-template-columns: 1fr;
+  }
+  .brunch img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
 
