@@ -249,6 +249,28 @@ main .brunch {
     aspect-ratio: 16/9;
   }
 }
+.gallery {
+  padding: 100px;
+}
+.gallery h2 {
+  margin-bottom: 40px;
+}
+@media (max-width: 576px) {
+  main .gallery {
+    padding: 30px;
+  }
+  .gallery h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .gallery h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .gallery .columns3-grids {
+    grid-template-columns: 1fr;
+  }
+}
 
 /*  FOOTER  */
 footer {
