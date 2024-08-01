@@ -146,6 +146,56 @@ h2 small {
     margin-top: 30px;
   }
 }
+/*  MAIN  (table)*/
+.table-section {
+  padding: 100px;
+  padding-top: 0;
+}
+.table-container {
+  color: var(--color-bg);
+  overflow-x: auto;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 800px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+table {
+  color: var(--color-bg);
+  width: 100%;
+}
+th {
+  background-color: var(--color-bg);
+  color: white;
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #382a1f; /* Slightly darker shade for a shadow effect */
+}
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {
+  background-color: #f1f1f1;
+}
+@media (max-width: 576px) {
+  .table-section {
+    padding: 30px;
+    padding-top: 0;
+  }
+  .table-container h2 {
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+  .table-container th {
+    font-size: 14px;
+  }
+  .table-container td {
+    font-size: 10px;
+  }
+}
 /*  MAIN  (cafes)*/
 main .brunch {
   background-color: var(--color-bg2);
